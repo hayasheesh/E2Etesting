@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Generated Manually</author>
+      <authoring_tool>Text Editor</authoring_tool>
+    </contributor>
+    <created>2024-11-22T00:00:00</created>
+    <modified>2024-11-22T00:00:00</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_geometries>
+    <geometry id="simple_cube" name="Cube">
+      <mesh>
+        <source id="cube_positions">
+          <float_array id="cube_positions_array" count="24">-1 1 -1 1 1 -1 1 1 1 -1 1 1 -1 -1 -1 1 -1 -1 1 -1 1 -1 -1 1</float_array>
+          <technique_common>
+            <accessor source="#cube_positions_array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+      </mesh>
+    </geometry>
+  </library_geometries>
+</COLLADA>

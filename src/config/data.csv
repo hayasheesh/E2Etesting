@@ -1,0 +1,4 @@
+id,name,password,project_name,expected_success_message,Rename_project,expected_updated_message,attribute_name,multipage_text,prompt_text,prompt_string,prompt_int,prompt_float,prompt_date,prompt_time,prompt_datetime,prompt_boolean,prompt_json,prompt_table,prompt_naive,toast_attribute,attribute_string,attribute_int,attribute_float,attribute_date,attribute_boolean,attribute_datetime,attribute_time,attribute_json,attribute_table,key_coumn_name1,key_coumn_name2
+1,abc,super,test_project,Project created.,Renamed,Project updated.,String-p,CTO,String,Summarize the document,Get Integer value,Get float value,Get the date,get the time,get date and time,Is Cto salary is higher than QA,Get json data,Get the table list,Describe the image,Attribute created.,String-p,Int-p,Float-p,Date-p,Boolean-p,Dateandtime-p,Time-p,Json-p,Table-p,Team Name,Count
+
+
